@@ -32,6 +32,7 @@
         android:layout_marginTop="5dp"
         android:text="@string/tv_lb_note"
         android:textSize="20sp"/>
+
     <EditText
         android:id="@+id/etNote"
         android:layout_width="match_parent"
@@ -39,6 +40,7 @@
         android:layout_weight="0.4"
         android:gravity="top"
         android:inputType="textMultiLine"/>
+
     <Button
         android:id="@+id/btnSave"
         android:layout_width="match_parent"
@@ -46,5 +48,4 @@
         android:enabled="false"
         android:onClick="onSaveButtonClick"
         android:text="@string/btn_save"/>
-
 </LinearLayout>
